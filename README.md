@@ -10,6 +10,7 @@ I create this repo for my self and yourself so we can learn about docker and how
 <p>docker ps -a (to get all the docker containers)</p>
 <p>docker run --name pythonContainer -d python (pass any name of container and -d is <p>basically deattached the container and finally add the image name)</p>
 <p>docker ps (to see which container is running currently)</p>
+<p>docker-compose ps (run on perticular directory and search file docker-composer.yml)</p>
 <p>docker run --name pythonContainer1 -it -d python (run the docker image pass the name in itrative way so i use -it and -d is deattached mode)</p>
 <p>docker exec -it 714dad479983 python3 (this command execute the container and you pass the container ID and then what you execute like python3, 2,etc.) example print('this is teting')</p>
 <p>docker inspect 714dad479983 (all information of our running container)</p>
