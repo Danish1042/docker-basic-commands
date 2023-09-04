@@ -2,7 +2,7 @@
 I create this repo for my self and yourself so we can learn about docker and how we use in our real projects
 
 ## Check Version
-docker -v (check version)
+<p>docker -v (check version) </p>
 docker pull (get image)
 docker images(to get all the images)
 docker search php (to searn images)
