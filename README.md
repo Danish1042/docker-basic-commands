@@ -37,3 +37,9 @@ add this code </p>
 <p>RUN apt-command</p>
 <p>CMD ["echo", "This is my first ubuntu image"]</p>
 <p>docker build -t myubuntuimage . (to build image -t is for adding tags)</p>
+
+# How to use docker in laravel
+<p>we need to create two files in our blank project which are </p>
+<br>
+Dockerfile (this file has no extension)
+docker-compose.yml (yml file where we can defing our needs)
